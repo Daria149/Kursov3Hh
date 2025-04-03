@@ -5,7 +5,7 @@ from src.config import config
 
 
 class CreateTable:
-    """Класс для создания таблицы и работы с ней."""
+    """Класс для создания таблиц и работы с ними."""
 
     def create_database(self, database_name, params: dict) -> None:
         """Создание базы данных и таблиц."""

@@ -1,7 +1,5 @@
 from typing import Any
-
 import psycopg2
-
 from src.config import config
 
 

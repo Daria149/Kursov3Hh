@@ -14,7 +14,7 @@ class HHApi:
                 company_datas = employer_response.json()
                 companies_datas.append(company_datas)
         except Exception as e:
-            print(f"Ошибка получения данных: {e}. Работодатели не найдены")
+            print(f"Ошибка получения данных: {e}. Работодатели не найдены.")
             companies_datas = []
         return companies_datas
 

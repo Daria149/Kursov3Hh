@@ -3,8 +3,6 @@ from src.config import config
 from src.dbmanager import DBManager
 from src.utils import CreateTable
 
-employers_ids = [1749518, 78638, 816969, 46387, 41144, 903111, 9641588, 1440683, 4770322, 1373]
-
 
 def user_interaction():
     """Итоговая функция для взаимодействия с пользователем."""
