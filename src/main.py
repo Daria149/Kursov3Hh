@@ -48,11 +48,11 @@ def user_interaction():
         else:
             vacancy_youtube_id = vacancy.get("id")
         if vacancy.get("name") is None:
-            vacancy_name = "Нет данных"
+            vacancy_name = "Нет данных."
         else:
             vacancy_name = vacancy.get("name")
         if vacancy.get("salary") is None:
-            salary_currency = "Нет данных"
+            salary_currency = "Нет данных."
             salary_from = 0
             salary_to = 0
         else:
@@ -77,7 +77,7 @@ def user_interaction():
         else:
             requirement = vacancy.get("snippet").get("requirement")
         if vacancy.get("snippet").get("responsibility") is None:
-            responsibility = "Нет данных"
+            responsibility = "Нет данных."
         else:
             responsibility = vacancy.get("snippet").get("responsibility")
         if vacancy.get("alternate_url") is None:

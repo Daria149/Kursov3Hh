@@ -60,11 +60,11 @@ class CreateTable:
             empl_name = empl.get("name")
             empl_url = empl.get("alternate_url")
             if empl_id is None:
-                empl_id = "Нет данных"
+                empl_id = "Нет данных."
             if empl_name is None:
-                empl_name = "Нет данных"
+                empl_name = "Нет данных."
             if empl_url is None:
-                empl_url = "Нет данных"
+                empl_url = "Нет данных."
         conn = psycopg2.connect(dbname=database_name, **params)
 
         with conn.cursor() as cur:

@@ -4,7 +4,7 @@ from src.config import config
 
 
 class DBManager:
-    """Класс для работы с таблицами"""
+    """Класс для работы с таблицами."""
 
     def __init__(self, database_name="postgres"):
         params = config()

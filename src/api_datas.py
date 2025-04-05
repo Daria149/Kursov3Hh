@@ -28,7 +28,7 @@ class HHApi:
                 vacan_response.raise_for_status()  # проверка на ошибки
                 vacancies_datas = vacan_response.json().get("items", [])
         except Exception as e:
-            print(f"Ошибка получения данных: {e}. Вакансии не найдены")
+            print(f"Ошибка получения данных: {e}. Вакансии не найдены.")
             vacancies_datas = []
         return vacancies_datas
 

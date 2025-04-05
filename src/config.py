@@ -7,7 +7,7 @@ file_ = os.path.join(project_path, "database.ini")
 
 
 def config(filename=file_, section="postgresql") -> dict:
-    """Метод для получения данных с database.ini"""
+    """Метод для получения данных с database.ini """
     # create a parser
     parser = ConfigParser()
     # read config file
