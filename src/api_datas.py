@@ -3,6 +3,7 @@ import requests
 
 
 class HHApi:
+    """Класс для получения данных о работодателях и вакансиях  с hh.ru с помощью api"""
 
     def get_employer_api(self, employer_id: int) -> Any:
         """Метод, получающий данные о работодателях посредством api."""
